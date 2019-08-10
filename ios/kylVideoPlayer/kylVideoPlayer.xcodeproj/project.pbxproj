@@ -14,6 +14,7 @@
 		A59EAFA422FE67D50066DFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59EAFA222FE67D50066DFEF /* LaunchScreen.storyboard */; };
 		A59EAFAF22FE67D50066DFEF /* kylVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59EAFAE22FE67D50066DFEF /* kylVideoPlayerTests.swift */; };
 		A59EAFBA22FE67D50066DFEF /* kylVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59EAFB922FE67D50066DFEF /* kylVideoPlayerUITests.swift */; };
+		A59EAFC922FE6A8C0066DFEF /* kylplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59EAFC822FE6A8C0066DFEF /* kylplayer.swift */; };
 		BD19A6E8CE67D6B898F813DD /* Pods_kylVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9522FF171891D45CBD27CA /* Pods_kylVideoPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		A59EAFB522FE67D50066DFEF /* kylVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kylVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59EAFB922FE67D50066DFEF /* kylVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kylVideoPlayerUITests.swift; sourceTree = "<group>"; };
 		A59EAFBB22FE67D50066DFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59EAFC822FE6A8C0066DFEF /* kylplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kylplayer.swift; sourceTree = "<group>"; };
 		BC9522FF171891D45CBD27CA /* Pods_kylVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kylVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		A59EAF9822FE67CC0066DFEF /* kylVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A59EAFC722FE6A040066DFEF /* player */,
 				A59EAF9922FE67CC0066DFEF /* AppDelegate.swift */,
 				A59EAF9B22FE67CC0066DFEF /* ViewController.swift */,
 				A59EAF9D22FE67CC0066DFEF /* Main.storyboard */,
@@ -130,6 +133,14 @@
 				A59EAFBB22FE67D50066DFEF /* Info.plist */,
 			);
 			path = kylVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		A59EAFC722FE6A040066DFEF /* player */ = {
+			isa = PBXGroup;
+			children = (
+				A59EAFC822FE6A8C0066DFEF /* kylplayer.swift */,
+			);
+			path = player;
 			sourceTree = "<group>";
 		};
 		B3532381942731E45F6D77C7 /* Frameworks */ = {
@@ -333,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59EAFC922FE6A8C0066DFEF /* kylplayer.swift in Sources */,
 				A59EAF9C22FE67CC0066DFEF /* ViewController.swift in Sources */,
 				A59EAF9A22FE67CC0066DFEF /* AppDelegate.swift in Sources */,
 			);
